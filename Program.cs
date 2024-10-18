@@ -288,7 +288,7 @@ namespace Lab2
             Custom.WriteColored("Введіть число n:\n", White);
             int n = Custom.ReadLine(int.Parse, true, "Неправильно введене число.", Red, Yellow, true);
             double sum;
-            if(n!=0)sum = Math.Sqrt(3 * n--);
+            if(n>0)sum = Math.Sqrt(3 * n--);
             else
             {
                 Custom.WriteColored("Помилка!\n", Red, "Довжина рівняння дорівнює нулю.\n", White);
@@ -316,7 +316,7 @@ namespace Lab2
             Custom.WriteColored("Введіть число n:\n", White);
             int n = Custom.ReadLine(int.Parse, true, "Неправильно введене число.", Red, Yellow, true);
             double sum;
-            if(n!=0)sum = Math.Sin(x*n);
+            if(n>0)sum = Math.Sin(x*n);
             else
             {
                 Custom.WriteColored("Помилка!\n", Red, "Довжина рівняння дорівнює нулю.\n", White);
@@ -346,7 +346,7 @@ namespace Lab2
             Custom.WriteColored("Введіть число n:\n", White);
             int n = Custom.ReadLine(int.Parse, true, "Неправильно введене число.", Red, Yellow, true);
             double sum;
-            if(n!=0) sum = n%2==1 ? Math.Sin(x * n): Math.Cos(x*n);
+            if(n>0) sum = n%2==1 ? Math.Sin(x * n): Math.Cos(x*n);
             else
             {
                 Custom.WriteColored("Помилка!\n", Red, "Довжина рівняння дорівнює нулю.\n", White);
@@ -376,7 +376,7 @@ namespace Lab2
             Custom.WriteColored("Введіть число n:\n", White);
             int n = Custom.ReadLine(int.Parse, true, "Неправильно введене число.", Red, Yellow, true);
             double sum;
-            if (n!=0) sum = n % 2 == 1 ? Math.Sin(x * n) : Math.Cos(x * n);
+            if (n>0) sum = n % 2 == 1 ? Math.Sin(x * n) : Math.Cos(x * n);
             else
             {
                 Custom.WriteColored("Помилка!\n", Red, "Довжина рівняння дорівнює нулю.\n", White);
