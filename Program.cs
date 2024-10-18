@@ -280,7 +280,7 @@ namespace Lab2
                 if (ngNumIndex == 0) Custom.WriteColored("Успіх!\n", Green, "Серед ряду чисел немає жодного від'ємного числа.\n", White);
                 else Custom.WriteColored("Успіх!\n", Green, "Номер першого від'ємного числа: ", White, $"{ngNumIndex}\n", Yellow);
             }
-            else Custom.WriteColored("Помилка!\n", Red, "Кількість чисел нульова. Подальші операції неможливі.\n", White);
+            else Custom.WriteColored("Помилка!\n", Red, "Програма отримала замало чисел до введення нуля.\n", White);
         }
         public static void Task4(string cycType)
         {
